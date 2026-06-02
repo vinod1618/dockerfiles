@@ -4,3 +4,4 @@ ARG COURSE="DOCKER" \
     TRAINER="vinod" \
     DURATION="lifetime"
 RUN echo "triner is ${TRAINER}, duration is ${DURATION}"
+CMD ["sleep","100"]
